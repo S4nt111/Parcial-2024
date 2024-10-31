@@ -55,7 +55,6 @@ def pedir_libro():
 
     if not prestamos:  
         print("No hay usuarios registrados. Por favor, crea un nuevo usuario para continuar.")
-        return
 
     nombre = input("Introduce tu nombre (o escribe 'cancelar' para volver): ").strip()
     if nombre.lower() == 'cancelar':
